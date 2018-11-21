@@ -1,0 +1,17 @@
+{
+  "name": "npm-install-hook-test-package",
+  "version": "1.0.0",
+  "description": "Test what can be done with npm's install hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "./preinstall.sh",
+    "install": "./install.sh",
+    "postinstall": "./postinstall.sh",
+    "preuninstall": "./preuninstall.sh",
+    "uninstall": "./uninstall.sh",
+    "postuninstall": "./postuninstall.sh"
+  },
+  "author": "Alex Wendland <me@alexwendland.com>",
+  "license": "ISC"
+}
