@@ -1,0 +1,12 @@
+{
+  "name": "npm-install-hook-test-consumer",
+  "version": "1.0.0",
+  "description": "Consumes npm-install-hook-test-package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Wendland <me@alexwendland.com>",
+  "license": "ISC",
+  "dependencies": {}
+}
